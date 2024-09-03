@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./pexel1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+}
+
+.inputs {
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+    justify-content: center;
+    background: #d1e9fe;
+    height: 150px;
+    /* background-color: transparent; */
+    opacity: 0.8;
+}
+
+.inputs input[type="text"] {
+    height: 4rem;
+    width: 20rem;
+    background: rgb(35, 48, 192);
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-right: 4px;
+}
+
+.inputs input[type="submit"] {
+    height: 3rem;
+    width: 6rem;
+    background: rgb(170, 135, 164);
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.display {
+    text-align: center;
+    width: 520px;
+    color: aqua;
+}
+
+.wrapper {
+    background: rgb(38, 85, 142);
+    margin: 50px auto;
+    height: 70vh;
+    border-radius: 6px;
+}
+
+.wrapper h2 {
+    padding: 5px 0;
+    text-align: center;
+    background: rgb(38, 142, 140);
+    color: white;
+}
+
+.wrapper p {
+    margin: 80px 80px;
+    margin-right: 20px;
+    text-align: 20px;
+    color: #4b6fa5;
+    font-size: 18px;
+}
+
+.wrapper h2 span {
+    font-size: 26px;
+    color: rgb(78, 136, 184);
+}
+
+.wrapper p span {
+    color: darkslateblue;
+    font-size: 25px;
+}
